@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;          
+}
+
+
+header {
+    display: flex;
+    background: #8a3859;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 12vh;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+a {
+    color: #fff;
+}
+
+li > a:active{
+    color: #be6787;
+}
+
+
+section {
+    background: #fdcdf0;
+    height: 100vh;
+    display: flex;
+    flex-wrap: rap;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 15px;
+    gap: 8px;
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+}
+
+.cardLogin {
+    border: solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    width: 350px;
+    height: 320px;
+}
+
+@media  (max-wigdth: 1000px){
+    li {
+        font-size: 15px;
+    }
+}
